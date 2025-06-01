@@ -1,4 +1,4 @@
-package com.droiddevs.animateanything.ui.wiggle
+package com.droiddevs.animateanything.component.wiggle
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.LinearEasing

@@ -13,8 +13,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.droiddevs.animateanything.component.bouncySwitch.SwitchDemo
 import com.droiddevs.animateanything.ui.theme.AnimateAnythingTheme
-import com.droiddevs.animateanything.ui.wiggle.WiggleClock
+import com.droiddevs.animateanything.component.wiggle.WiggleClock
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +25,7 @@ class MainActivity : ComponentActivity() {
             AnimateAnythingTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Box(modifier = Modifier.padding(innerPadding), contentAlignment = Alignment.Center) {
-                        WiggleClock()
+                        SwitchDemo()
                     }
                 }
             }
